@@ -1,0 +1,4 @@
+.DS*
+scratch
+__pycache__
+pdfs
