@@ -17,8 +17,3 @@ def download(url: str, local_filename: str = None, target_dir: str = None) -> st
             file.write(chunk)
 
     return full_path
-
-
-download(
-    "https://github.com/PredictiveScienceLab/data-analytics-se/raw/master/lecturebook/data/stress_strain.txt"
-)
